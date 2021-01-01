@@ -19,3 +19,11 @@ def greetings(verify):
 date_check = dt.now()
 
 print(greetings(date_check))
+
+# kaggle example for testing
+
+
+def greet(who='Colin'):
+    print("Hello, ", who)
+greet(who="Kaggle")   
+greet("World")
