@@ -6,4 +6,4 @@ vicking_song = "Spam " * spam_amount
 print(vicking_song)
 
 
-type(spam_amount)
+print(type(spam_amount))
