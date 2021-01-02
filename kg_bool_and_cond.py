@@ -24,3 +24,33 @@ g(1)
 #g(0)
 #g(-1)
 
+
+# from the assignments
+
+def sign(x):
+    if x < 0:
+        return(-1)  # it's negative
+    elif x == 0:
+        return(0)  # it's zero
+    elif x > 0:
+        return(1)  # it's positive
+
+sign(-1)
+
+
+def to_smash(total_candies):
+    if total_candies == 1:
+        print("Splitting 1 candy")
+    else:
+        print("Splitting", total_candies, "candies")
+
+to_smash(91)
+to_smash(1)
+
+# or 
+
+def to_smash(total_candies):
+    print("Splitting", total_candies, "candy" if total_candies == 1 else "candies")
+
+to_smash(91)
+to_smash(1)
