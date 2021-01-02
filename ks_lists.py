@@ -15,5 +15,3 @@ print(planets[0:5])
 print(planets.pop())
 
 print(planets.index ('Saturn'))
-
-planets(help)
